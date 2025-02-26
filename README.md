@@ -39,3 +39,11 @@
 7. To embrace and apply Barclays’ values and mindsets in my daily work, ensuring collaboration, excellence, and continuous improvement in all tasks.
    - **To** integrate Respect, Integrity, Service, Excellence, and Stewardship in my work by collaborating with my team, maintaining transparency, and delivering meaningful value to stakeholders.
    - **To** embrace a challenge mindset by identifying opportunities for automation and improvement, taking ownership of tasks, and fostering a culture of empowerment through idea-sharing and team support.
+  
+
+
+
+- Ensured to verify the robustness of the transaction component by writing JUnit tests using Mockito to simulate service interactions and validate expected behaviors under various conditions.  
+- Ensured to verify data consistency across releases by maintaining robust validation mechanisms, preventing discrepancies, and strengthening system reliability.  
+- Ensured to verify data security by implementing validation checks to prevent unauthorized access and ensuring encryption standards are maintained.  
+- Ensured to get unit tests and validation mechanisms regularly reviewed by team members, incorporating their feedback to enhance accuracy and efficiency.
