@@ -1,19 +1,27 @@
 
-1. **Ensured Compliance with Minimum Bar Standards**  
+1. **Adhere to Planned Dates for Tech Debt and Ensured Compliance with Minimum Bar Standards**  
    - Ensured to verify 100% test coverage for the transaction component through JUnit tests using Mockito to mock dependencies, ensuring reliability and maintainability.  
    - Ensured to verify Notepad API responses against previous snapshots, detecting discrepancies and maintaining data integrity.  
-   - Ensured to verify data security by validating access controls and ensuring sensitive information in transaction monitoring remains protected.
-     
+   - Ensured to verify data security by validating access controls and ensuring sensitive information in transaction monitoring remains protected.  
+   - Ensured to complete unit tests within the expected timeline and got them reviewed to address feedback and implement necessary changes promptly.
+          
 2. **Innovation & Tech Advancement**  
    - Ensured to verify and validate the working of the transaction service through tests to enhance it and in turn reduce reliance on the SAM8 UI for alert processing and to find any potential discrepancies in the results.  
    - Ensured to verify system reliability by implementing a validation mechanism for Notepad API responses, automating discrepancy detection across releases.  
    - Ensured to verify and enhance test automation by achieving 100% JUnit test coverage for the transaction component, ensuring robust and error-free deployments.  
    - Ensured to verify and support tech objectives by optimizing validation workflows, reducing manual effort, and improving data accuracy through automation.
  
-3. **Proactive System Maintenance and Optimization**  
+3. **Proactive System Maintenance and Optimization**
+- **To** ensure regular updates, patching, vulnerability management, system dependencies, and third-party risk to maintain system hygiene and stability.
+- **To** set up proactive monitoring with alerts for prompt issue resolution, optimize batch processing time, improve incident management, and reduce problem records.
+- **To** monitor infrastructure usage, optimize costs while ensuring performance through tuning and enhancements, and reduce the total cost of ownership.
+- **To** strengthen data security by enforcing encryption, access controls, and validation mechanisms to protect sensitive information and maintain compliance.
+
    - Ensured to verify the robustness of the transaction component by writing JUnit tests using Mockito to simulate service interactions and validate expected behaviors under various conditions.  
    - Ensured to verify data consistency across releases by maintaining robust validation mechanisms, preventing discrepancies, and strengthening system reliability.  
-   - Ensured to verify data security by implementing validation checks to prevent unauthorized access and ensuring encryption standards are maintained.
+   - Ensured to verify data security by implementing validation checks to prevent unauthorized access and ensuring encryption standards are maintained.  
+   - Ensured to get unit tests and validation mechanisms regularly reviewed by team members, incorporating their feedback to enhance accuracy and efficiency.
+
   
 4. To contribute to the project Ops Automation by leveraging my technical skills to improve and enhance the project.
    - **Enhanced Code Quality with JUnit Tests** – Ensured to verify close to 100% test coverage for the transaction component by writing comprehensive JUnit tests using Mockito, effectively mocking dependencies and validating expected behaviors to improve system reliability and maintainability.
