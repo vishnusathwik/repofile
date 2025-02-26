@@ -43,7 +43,12 @@
 
 
 
-- Ensured to verify the robustness of the transaction component by writing JUnit tests using Mockito to simulate service interactions and validate expected behaviors under various conditions.  
-- Ensured to verify data consistency across releases by maintaining robust validation mechanisms, preventing discrepancies, and strengthening system reliability.  
-- Ensured to verify data security by implementing validation checks to prevent unauthorized access and ensuring encryption standards are maintained.  
-- Ensured to get unit tests and validation mechanisms regularly reviewed by team members, incorporating their feedback to enhance accuracy and efficiency.
+i. ensure regular updates, patching, vulnerability management, system dependencies and TP risk
+
+ii. proactive system maintenance - demonstrate improvement in batch time, incident management, problem records
+
+1. Setup proactive monitoring with alerts to address system failures promptly
+
+iii. Reduce total cost of ownership - monitor infrastructure usage and optimize costs while ensuring performance (tuning and optimization can ensure both performance and reduction costs)
+
+iv. Strengthen data security, encryption and access controls to protect sensitive data
