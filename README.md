@@ -52,3 +52,90 @@ ii. proactive system maintenance - demonstrate improvement in batch time, incide
 iii. Reduce total cost of ownership - monitor infrastructure usage and optimize costs while ensuring performance (tuning and optimization can ensure both performance and reduction costs)
 
 iv. Strengthen data security, encryption and access controls to protect sensitive data
+
+
+
+package com.barclays.nextgen.transaction.config;
+
+import static org.mockito.Mockito.*;
+import static org.junit.jupiter.api.Assertions.*;
+
+import com.barclays.nextgen.utils.auth.CyberArkConfig;
+import com.barclays.nextgen.utils.auth.CyberArkUtil;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import org.springframework.boot.test.mock.mockito.MockBean;
+
+@ExtendWith(MockitoExtension.class)
+class AppCyberArkPropsTest {
+
+    @Mock
+    private CyberArkProps cyberArkProps;
+
+    @Mock
+    private TxnProperties txnProperties;
+
+    @InjectMocks
+    private AppCyberArkProps appCyberArkProps;
+
+    @MockBean
+    private CyberArkUtil cyberArkUtil;
+
+    private CyberArkProps.DataSource dataSource;
+    private CyberArkConfig nextgenConfig;
+    private CyberArkConfig notificationConfig;
+    private CyberArkConfig samcdConfig;
+    private CyberArkConfig tiaaConfig;
+
+    @BeforeEach
+    void setUp() {
+        dataSource = mock(CyberArkProps.DataSource.class);
+        nextgenConfig = mock(CyberArkConfig.class);
+        notificationConfig = mock(CyberArkConfig.class);
+        samcdConfig = mock(CyberArkConfig.class);
+        tiaaConfig = mock(CyberArkConfig.class);
+
+        when(cyberArkProps.getDatasource()).thenReturn(dataSource);
+        when(dataSource.getNextgen()).thenReturn(nextgenConfig);
+        when(dataSource.getNotification()).thenReturn(notificationConfig);
+        when(dataSource.getSamcd()).thenReturn(samcdConfig);
+        when(cyberArkProps.getTiaa()).thenReturn(tiaaConfig);
+    }
+
+    @Test
+    void testConstruct_WhenCyberArkPropsPresent() {
+        when(nextgenConfig.getObject()).thenReturn("NextGenObject");
+        when(notificationConfig.getObject()).thenReturn("NotificationObject");
+        when(samcdConfig.getObject()).thenReturn("SamcdObject");
+        when(tiaaConfig.getObject()).thenReturn("TiaaObject");
+
+        when(CyberArkUtil.getPassword(any())).thenReturn("mockPassword");
+
+        assertDoesNotThrow(() -> appCyberArkProps.construct());
+
+        verify(txnProperties.getDatasource().getNextgen()).setPassword("mockPassword");
+        verify(txnProperties.getDatasource().getNotification()).setPassword("mockPassword");
+        verify(txnProperties.getDatasource().getSamcd()).setPassword("mockPassword");
+        verify(txnProperties.getTiaa()).setPassword("mockPassword");
+    }
+
+    @Test
+    void testConstruct_WhenCyberArkPropsMissing() {
+        when(cyberArkProps.getDatasource()).thenReturn(null);
+
+        assertDoesNotThrow(() -> appCyberArkProps.construct());
+    }
+
+    @Test
+    void testConstruct_WhenCyberArkThrowsException() {
+        when(nextgenConfig.getObject()).thenReturn("NextGenObject");
+        when(CyberArkUtil.getPassword(any())).thenThrow(new RuntimeException("CyberArk failure"));
+
+        RuntimeException exception = assertThrows(RuntimeException.class, () -> appCyberArkProps.construct());
+        assertEquals("Failed to get password from CyberArk", exception.getMessage());
+    }
+}
