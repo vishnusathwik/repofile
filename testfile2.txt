@@ -1,13 +1,2 @@
 test hello
 
-
-**Subject:** Time Sheet Reversal for Two Weeks  
-
-Hi [Colleague's Name],  
-
-As per our discussion, I created a time sheet for a random period but missed adding a note to reverse the time sheet for the two specific weeks. Can I add a note in a single time sheet to request reversal for both weeks?  
-
-Also, since I have already submitted 40 hours for this week, I assume I need to submit a zero-hour time sheet. Please confirm.  
-
-Thanks,  
-[Your Name]
