@@ -1,4 +1,8 @@
+I'm currently available and would be happy to take up any backend tasks related to Java if there's anything I can help with. Please let me know if there's something I can pick up.
 
+
+
+Edit in this 
 1. **Adhere to Planned Dates for Tech Debt and Ensured Compliance with Minimum Bar Standards**  
    - Ensured to verify 100% test coverage for the transaction component through JUnit tests using Mockito to mock dependencies, ensuring reliability and maintainability.  
    - Ensured to verify Notepad API responses against previous snapshots, detecting discrepancies and maintaining data integrity.  
