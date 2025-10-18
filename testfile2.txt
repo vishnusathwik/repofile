@@ -39,7 +39,7 @@ Collaborated with teams to identify and manage risks, escalating issues where ne
 
 3. Promote Diversity of Thought, Champion New Thinking and Challenge the Status Quo – 5 Points Version
 
-Designed and implemented Camunda workflows in Case Management (CM) for RFI and QC processes, improving efficiency and challenging manual processes.
+Designed and implemented Camunda workflows in Case Management (CM) for RFI and QC processes, improving efficiency and enabling automated orchestration instead of manual effort on UI and backend.
 
 Developed the Orchestrator Service in Java Spring Boot, integrating with Workflow Service and Case WI Service, delivering reliable automated solutions for data updates and API interactions.
 
