@@ -21,3 +21,13 @@
 * Worked with the **Infrastructure team** to optimize **GitLab CI/CD pipelines** and deployment processes across OpenShift, ensuring efficient, secure, and compliant releases that meet risk and control requirements.
 * In **Ops Automation**, contributed to **bug fixes, post-release enhancements, and JUnit tests** for the Transaction component, and automated validation of **CSS** and **Notepad API responses**, improving system reliability, reducing manual effort, and strengthening long-term performance.
 
+
+Have Precision in Operations – Concise Version
+
+Developed and orchestrated Camunda workflows in CM for case journeys, including RFI and QC, ensuring accurate processing of statuses, sub-statuses, outcomes, and other attributes while meeting stakeholder design requirements and Barclays operational standards.
+Implemented validation mechanisms in the Orchestrator Service, Workflow Service, and downstream systems to reduce errors, ensure data consistency, and minimize operational risk.
+Delivered the Assignment and Bulk Assignment feature and supported Search RFI, automating case allocation and backend integrations to improve efficiency and accuracy.
+Worked on OpenAPI specification updates to ensure APIs meet Barclays rules, standards, and expected design criteria.
+In Ops Automation, contributed to bug fixes, post-release enhancements, and JUnit tests, and automated validation of CSS and Notepad API responses, strengthening system reliability.
+Collaborated with teams to identify and manage risks, escalating issues where necessary, and continuously improving workflows and controls to maintain process effectiveness.
+
