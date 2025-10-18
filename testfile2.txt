@@ -1,1 +1,10 @@
-test hello
+**THE WHAT – GLOBAL OBJECTIVES: Drive Simplicity and Efficiency, seek out every opportunity to automate**
+
+* Contributed **from scratch** to the **Case Management (CM)** project in **Transaction Monitoring** by developing the **Camunda workflow orchestration** for case journeys, including RFI and QC flows, ensuring smooth automation of the complete case lifecycle management process.
+* Designed and implemented the **Orchestrator Service** in **Java Spring Boot**, responsible for managing Camunda workflow execution and coordinating with the **Workflow Service** via REST APIs. Built logic to update key case parameters such as status, sub-status, and outcome in the database as the case progressed through its journey. Ensured proper exception handling, response validation, and service resiliency across environments to maintain seamless communication between systems.
+* Developed and delivered the **Assignment and Bulk Assignment** feature, automating case allocation to analysts, reducing manual intervention, and improving operational efficiency.
+* Collaborated with the **UI team** to integrate backend APIs seamlessly with the front end, providing payload structures, resolving integration issues, and ensuring smooth communication between services.
+* Supported the **Search RFI** functionality in the RFI Service by developing APIs and ensuring their integration with UI and orchestrator, contributing to the automation of RFI handling.
+* Worked with the **Infrastructure team** to enhance deployment efficiency by optimizing **GitLab CI/CD pipelines**, updating YAML configurations, and ensuring seamless deployments across OpenShift environments.
+* Earlier in the year, contributed to the **Ops Automation** project by working on **bug fixes and post-release enhancements** to stabilize the application and improve overall performance. Implemented comprehensive **JUnit tests** for the Transaction component using Mockito to validate different scenarios and ensure reliability across modules.
+* Automated the validation of **CSS** and **Notepad API responses** against stored snapshots, reducing manual validation efforts and improving release reliability.
