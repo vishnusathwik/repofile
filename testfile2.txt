@@ -1,15 +1,16 @@
 **THE WHAT – GLOBAL OBJECTIVES: Drive Simplicity and Efficiency, seek out every opportunity to automate**
 
-* Contributed **from scratch** to the **Case Management (CM)** project in **Transaction Monitoring** by developing the **Camunda workflow orchestration** for case journeys, including RFI and QC flows, ensuring smooth automation of the complete case lifecycle management process.
-* Designed and implemented the **Orchestrator Service** in **Java Spring Boot**, responsible for managing Camunda workflow execution and coordinating with the **Workflow Service** via REST APIs. Built logic to update key case parameters such as status, sub-status, and outcome in the database as the case progressed through its journey. Ensured proper exception handling, response validation, and service resiliency across environments to maintain seamless communication between systems.
-* Developed and delivered the **Assignment and Bulk Assignment** feature, automating case allocation to analysts, reducing manual intervention, and improving operational efficiency.
-* Collaborated with the **UI team** to integrate backend APIs seamlessly with the front end, providing payload structures, resolving integration issues, and ensuring smooth communication between services.
-* Supported the **Search RFI** functionality in the RFI Service by developing APIs and ensuring their integration with UI and orchestrator, contributing to the automation of RFI handling.
-* Worked with the **Infrastructure team** to enhance deployment efficiency by optimizing **GitLab CI/CD pipelines**, updating YAML configurations, and ensuring seamless deployments across OpenShift environments.
-* Earlier in the year, contributed to the **Ops Automation** project by working on **bug fixes and post-release enhancements** to stabilize the application and improve overall performance. Implemented comprehensive **JUnit tests** for the Transaction component using Mockito to validate different scenarios and ensure reliability across modules.
-* Automated the validation of **CSS** and **Notepad API responses** against stored snapshots, reducing manual validation efforts and improving release reliability.
+Contributed to the Case Management (CM) project in Transaction Monitoring from scratch, developing the Camunda workflow orchestration for case journeys, including RFI and QC flows, ensuring accurate and efficient processing of suspicious transactions while supporting strategic priorities.
 
+Developed the Orchestrator Service in Java Spring Boot and integrated it with the Workflow Service and Case WI Service, implementing robust logic to update case status, sub-status, outcomes, and other parameters, while striving to ensure reliable data management and minimize operational errors.
 
+Delivered the Assignment and Bulk Assignment feature end-to-end, enabling automated allocation of cases to analysts, reducing manual effort, and improving operational efficiency. Also supported the Search RFI functionality, integrating backend APIs with UI and orchestrator to ensure seamless workflow and faster investigation outcomes.
+
+Worked on OpenAPI specification changes, ensuring all APIs meet the expected criteria of the Barclays OpenAPI team and comply with all specified rules and standards.
+
+Worked with the Infrastructure team to optimize GitLab CI/CD pipelines and deployment processes across OpenShift, ensuring efficient, secure, and compliant releases that meet risk and control requirements.
+
+In Ops Automation, contributed to bug fixes, post-release enhancements, and JUnit tests for the Transaction component, and automated validation of CSS and Notepad API responses, improving system reliability, reducing manual effort, and strengthening long-term performance.
 
 
 **THE WHAT – FOCUS ON BUSINESSES AND PROJECTS WHERE WE CAN EXCEL**
@@ -25,9 +26,27 @@
 Have Precision in Operations – Concise Version
 
 Developed and orchestrated Camunda workflows in CM for case journeys, including RFI and QC, ensuring accurate processing of statuses, sub-statuses, outcomes, and other attributes while meeting stakeholder design requirements and Barclays operational standards.
+
 Implemented validation mechanisms in the Orchestrator Service, Workflow Service, and downstream systems to reduce errors, ensure data consistency, and minimize operational risk.
+
 Delivered the Assignment and Bulk Assignment feature and supported Search RFI, automating case allocation and backend integrations to improve efficiency and accuracy.
+
 Worked on OpenAPI specification updates to ensure APIs meet Barclays rules, standards, and expected design criteria.
+
 In Ops Automation, contributed to bug fixes, post-release enhancements, and JUnit tests, and automated validation of CSS and Notepad API responses, strengthening system reliability.
+
 Collaborated with teams to identify and manage risks, escalating issues where necessary, and continuously improving workflows and controls to maintain process effectiveness.
 
+3. Promote Diversity of Thought, Champion New Thinking and Challenge the Status Quo – Concise Version
+
+Designed and implemented Camunda workflows in Case Management (CM) for RFI and QC processes, optimizing case handling and improving efficiency by challenging existing manual processes.
+
+Developed the Orchestrator Service in Java Spring Boot, integrating with Workflow Service and Case WI Service, introducing robust automated solutions for reliable data updates and API interactions.
+
+Delivered the Assignment and Bulk Assignment feature, automating case allocation and collaborating with the UI team to integrate APIs, reducing manual effort and improving workflow efficiency.
+
+Enhanced Search RFI functionality by contributing solutions for backend and frontend integration, ensuring faster and more accurate case investigations.
+
+Helped team members by addressing their issues, sharing knowledge, and collaborating closely to solve problems, improve processes, and implement innovative solutions.
+
+Took constant feedback on the working of the Orchestrator Service, ensuring all changes and improvements were implemented with diligence to maintain reliability and meet stakeholder expectations, reinforcing a culture of continuous improvement.
