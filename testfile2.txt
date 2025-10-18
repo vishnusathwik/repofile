@@ -37,16 +37,14 @@ In Ops Automation, contributed to bug fixes, post-release enhancements, and JUni
 
 Collaborated with teams to identify and manage risks, escalating issues where necessary, and continuously improving workflows and controls to maintain process effectiveness.
 
-3. Promote Diversity of Thought, Champion New Thinking and Challenge the Status Quo – Concise Version
+3. Promote Diversity of Thought, Champion New Thinking and Challenge the Status Quo – 5 Points Version
 
-Designed and implemented Camunda workflows in Case Management (CM) for RFI and QC processes, optimizing case handling and improving efficiency by challenging existing manual processes.
+Designed and implemented Camunda workflows in Case Management (CM) for RFI and QC processes, improving efficiency and challenging manual processes.
 
-Developed the Orchestrator Service in Java Spring Boot, integrating with Workflow Service and Case WI Service, introducing robust automated solutions for reliable data updates and API interactions.
+Developed the Orchestrator Service in Java Spring Boot, integrating with Workflow Service and Case WI Service, delivering reliable automated solutions for data updates and API interactions.
 
-Delivered the Assignment and Bulk Assignment feature, automating case allocation and collaborating with the UI team to integrate APIs, reducing manual effort and improving workflow efficiency.
+Delivered the Assignment and Bulk Assignment feature and supported Search RFI functionality, automating case allocation, integrating backend and UI systems, and improving workflow efficiency.
 
-Enhanced Search RFI functionality by contributing solutions for backend and frontend integration, ensuring faster and more accurate case investigations.
+Collaborated with the team to share ideas, learn from others, and incorporate insights, fostering a supportive environment and delivering more effective solutions while remaining open to new approaches.
 
-Helped team members by addressing their issues, sharing knowledge, and collaborating closely to solve problems, improve processes, and implement innovative solutions.
-
-Took constant feedback on the working of the Orchestrator Service, ensuring all changes and improvements were implemented with diligence to maintain reliability and meet stakeholder expectations, reinforcing a culture of continuous improvement.
+Took constant feedback on the Orchestrator Service, ensuring all changes and improvements were implemented diligently to maintain reliability and meet stakeholder requirements.
