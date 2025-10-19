@@ -47,3 +47,15 @@ Delivered the Assignment and Bulk Assignment feature and supported Search RFI fu
 Collaborated with the team to share ideas, learn from others, and incorporate insights, fostering a supportive environment and delivering more effective solutions while remaining open to new approaches.
 
 Took constant feedback on the Orchestrator Service, ensuring all changes and improvements were implemented diligently to maintain reliability and meet stakeholder requirements.
+
+
+HOW--
+Embraced a learning and growth mindset while developing the Orchestrator and Workflow Services from scratch, exploring new approaches in Camunda workflow orchestration and Java Spring Boot development, and remained open to feedback, adopting improved approaches to deliver the best solution, demonstrating Excellence.
+
+Demonstrated Integrity by following best coding practices, implementing robust validation logic, and ensuring accurate processing of case statuses, sub-statuses, outcomes, and API interactions.
+
+Collaborated effectively with Infrastructure, QA, and UI teams, actively listening to feedback and providing solutions to enhance system functionality and analyst workflows, showing Respect and Service.
+
+Delivered features like Assignment/Bulk Assignment and Search RFI that automate manual processes, reduce operational risk, and improve efficiency, ensuring long-term value, reflecting Stewardship.
+
+Actively incorporated feedback on the Orchestrator Service, implementing changes diligently to maintain reliability, improve functionality, and meet stakeholder requirements, reinforcing Excellence and Integrity.
