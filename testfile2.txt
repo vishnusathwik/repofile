@@ -25,16 +25,15 @@ Contributed to long-term system reliability and performance improvements through
 
 Have Precision in Operations – Concise Version
 
-Developed and orchestrated Camunda workflows in CM for case journeys, including RFI and QC, ensuring accurate processing of statuses, sub-statuses, outcomes, and other attributes while meeting stakeholder design requirements and Barclays operational standards.
+Developed and orchestrated Camunda workflows in Case Management (CM) for RFI and QC journeys, ensuring accuracy in case statuses, sub-statuses, and outcomes while meeting stakeholder design and Barclays operational standards.
 
-Implemented validation mechanisms in the Orchestrator Service, Workflow Service, and downstream systems to reduce errors, ensure data consistency, and minimize operational risk.
+Enhanced deployment reliability by collaborating with Infrastructure and QA teams to streamline CI/CD pipelines, mitigate release risks, and maintain consistency across environments.
 
-Delivered the Assignment and Bulk Assignment feature and supported Search RFI, automating case allocation and backend integrations to improve efficiency and accuracy.
+Ensured API compliance with Barclays governance and OpenAPI standards, improving system reliability and maintainability.
 
-Worked on OpenAPI specification updates to ensure APIs meet Barclays rules, standards, and expected design criteria.
+Implemented validation logic in Orchestrator and Workflow Services to maintain data consistency, reduce operational errors, and strengthen process control.
 
-In Ops Automation, contributed to bug fixes, post-release enhancements, and JUnit tests, and automated validation of CSS and Notepad API responses, strengthening system reliability.
-
+Contributed to post-release monitoring and improvements, ensuring robust testing, reliable functionality, and adherence to all risk and control standards.
 Collaborated with teams to identify and manage risks, escalating issues where necessary, and continuously improving workflows and controls to maintain process effectiveness.
 
 3. Promote Diversity of Thought, Champion New Thinking and Challenge the Status Quo – 5 Points Version
