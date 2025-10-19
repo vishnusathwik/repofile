@@ -1,15 +1,20 @@
 
 **THE WHAT – Achievements in Relation to Objectives**
 
-Contributed to the **Case Management (CM)** project in **Transaction Monitoring** from the ground up, developing **Camunda workflows** for **RFI** and **QC** journeys, ensuring seamless orchestration of case lifecycles and automating backend processes that were previously manual.
+Contributed to the Case Management (CM) project in Transaction Monitoring from the ground up, developing Camunda workflows for CASE, RFI, and QC journeys. This ensured world-class service by automating case lifecycle management, reducing manual effort, and delivering accurate, efficient outcomes for stakeholders.
 
-Developed the **Orchestrator Service** and **Workflow Service** in **Java Spring Boot**, implementing logic to handle case status, sub-status, and outcome transitions, integrating with **Case WI Service**, and ensuring data accuracy across systems through well-defined APIs and validation mechanisms.
+Developed microservices for the CMT Orchestrator, Worker, and Workflow Services using Java Spring Boot, implementing robust logic to manage case status, sub-status, outcomes, and parameter transitions. Applied validation mechanisms and structured APIs to ensure precision in operations, risk management, and controls, minimizing errors and maintaining reliable data across systems.
 
-Delivered the **Assignment and Bulk Assignment** functionality end-to-end, automating case allocation to analysts and improving workflow efficiency. Also supported the **Search RFI** functionality by integrating backend APIs with UI and orchestrator for faster and more reliable case investigations.
+Delivered end-to-end Assignment and Bulk Assignment functionalities, and supported Search RFI, automating case allocation, integrating backend and UI systems, and improving workflow efficiency. These enhancements focus on business excellence, optimizing processes, fixing root-cause issues, and enhancing long-term stakeholder satisfaction.
 
-Worked on **OpenAPI specification updates** and collaborated with the **Infrastructure team** to optimize **GitLab CI/CD pipelines** and deployment processes across **OpenShift**, ensuring all APIs meet Barclays’ design standards and governance rules while improving overall release efficiency, security, and maintainability.
+Worked on OpenAPI specification updates and collaborated with the Infrastructure team to optimize GitLab CI/CD pipelines and deployments across OpenShift. These efforts drive simplicity and efficiency, ensuring APIs comply with governance standards while improving release speed, reliability, and maintainability.
 
-Contributed to the **Ops Automation** project through bug fixes, **JUnit test creation**, and automated validation of **CSS** and **Notepad API responses**, enhancing system reliability and reducing manual verification efforts post-release.
+Contributed to the Ops Automation project by resolving bugs, creating JUnit tests, and developing a Spring service for automated validation of CSS and Notepad API responses. This initiative strengthened system reliability, reduced manual verification effort, and demonstrated innovation, technical advancement, and adherence to minimum bar standards.
+
+Maintained a focus on technical excellence, continuous learning, and application of Barclays’ RISES values, collaborating with teams, incorporating feedback, and applying best practices in code quality, automation, and process improvement.
+
+Throughout all work, actively embraced Barclays’ values and mindset, ensuring integrity, service, stewardship, and excellence in every task, while promoting collaboration, knowledge sharing, and continuous improvement within the team.
+
 
 **THE WHAT – FOCUS ON BUSINESSES AND PROJECTS WHERE WE CAN EXCEL**
 
